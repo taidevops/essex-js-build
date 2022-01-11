@@ -1,0 +1,14 @@
+{
+    "name": "@tai-ui/webpack-config",
+    "version": "1.0.0",
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "scripts": {
+        "clean": "rimraf lib",
+        "build": "tsc --emitDeclarationOnly && swc src -d lib"
+    },
+    "repository": {},
+    "dependencies": {
+        
+    }
+}
